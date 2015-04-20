@@ -27,17 +27,7 @@ module.exports = function(grunt) {
             resultBaseDir: '/Users/sshaik/source/',
             noYslow: true,
             gpsiKey: 'AIzaSyDFnxH1W3fMxNaW-gFe2i9sDntc0sz9q8I',
-            profile: 'desktop',
-           
-            budget: {
-              page: {
-                image: 10,
-                css: 1,
-                requests: 7,
-                pageWeight:300000,
-                jsWeight: 0
-        }
-            }
+            profile: 'desktop'
         }
       }
     }
