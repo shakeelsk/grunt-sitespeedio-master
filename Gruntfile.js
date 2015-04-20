@@ -23,8 +23,7 @@ module.exports = function(grunt) {
       default_options: {
         options: {
             url: 'http://www.jstor.org',
-            deepth: 1,
-            resultBaseDir: '/sshaik/source'
+            deepth: 1
         }
       }
     }
