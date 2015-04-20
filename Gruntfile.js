@@ -23,8 +23,15 @@ module.exports = function(grunt) {
       default_options: {
         options: {
             url: 'http://www.jstor.org',
-            deepth: 1,
-            resultBaseDir: '/Users/sshaik/source/'
+            deepth: 2,
+            resultBaseDir: '/Users/sshaik/source/',noYslow: true,
+            gpsiKey: 'AIzaSyDFnxH1W3fMxNaW-gFe2i9sDntc0sz9q8I',
+            profile: 'mobile',
+            budget: {
+              gpsi: {
+                score: 96
+              }
+            }
         }
       }
     }
