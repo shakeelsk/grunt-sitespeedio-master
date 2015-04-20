@@ -51,4 +51,5 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['clean', 'sitespeedio']);
   grunt.registerTask('test_acceptance', ['nodeunit:all']);
   grunt.registerTask('default', 'test');
+  grunt.config.set('includePassed', true);
 };
