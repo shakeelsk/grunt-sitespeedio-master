@@ -24,14 +24,12 @@ module.exports = function(grunt) {
         options: {
             url: 'http://www.jstor.org',
             deepth: 1,
-            resultBaseDir: '/Users/sshaik/source/',noYslow: true,
+            resultBaseDir: '/Users/sshaik/source/',
+            noYslow: true,
             gpsiKey: 'AIzaSyDFnxH1W3fMxNaW-gFe2i9sDntc0sz9q8I',
             profile: 'desktop',
-            showFailedOnly: true,
+           
             budget: {
-              gpsi: {
-                score: 75,
-              },
               page: {
                 image: 10,
                 css: 1,
