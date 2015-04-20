@@ -29,7 +29,7 @@ module.exports = function(grunt) {
             profile: 'mobile',
             budget: {
               gpsi: {
-                score: 96
+                score: 80
               }
             }
         }
