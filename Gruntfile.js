@@ -29,7 +29,12 @@ module.exports = function(grunt) {
             profile: 'desktop',
             budget: {
               gpsi: {
-                score: 75
+                score: 75,
+                image: 10,
+                css: 1,
+                requests: 7,
+                pageWeight:300000,
+                jsWeight: 0
               }
             }
         }
