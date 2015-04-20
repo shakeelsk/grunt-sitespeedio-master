@@ -26,7 +26,7 @@ module.exports = function(grunt) {
             deepth: 2,
             resultBaseDir: '/Users/sshaik/source/',noYslow: true,
             gpsiKey: 'AIzaSyDFnxH1W3fMxNaW-gFe2i9sDntc0sz9q8I',
-            profile: 'mobile',
+            profile: 'desktop',
             budget: {
               gpsi: {
                 score: 80
